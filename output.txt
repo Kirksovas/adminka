@@ -1,0 +1,125 @@
+========================================
+Текущий рабочий каталог: /mnt/host/c/Users/Kristina/Desktop/admin
+========================================
+Текущий запущенный процесс: 23
+========================================
+Домашний каталог: /root
+========================================
+Название и версия ОС: Linux DESKTOP-EIPCVR8 5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024 x86_64 Linux
+========================================
+Доступные оболочки:
+# valid login shells
+/bin/sh
+/bin/ash
+========================================
+Текущие пользователи:
+========================================
+Количество вошедших пользователей: 0
+========================================
+Информация о жестких дисках:
+Filesystem                Size      Used Available Use% Mounted on
+none                      3.8G         0      3.8G   0% /lib/modules/5.15.153.1-microsoft-standard-WSL2
+none                      3.8G      4.0K      3.8G   0% /mnt/host/wsl
+drivers                 232.0G    178.7G     53.2G  77% /usr/lib/wsl/drivers
+/dev/sdc               1006.9G    142.9M    955.5G   0% /
+none                      3.8G     76.0K      3.8G   0% /mnt/host/wslg
+/dev/sdc               1006.9G    142.9M    955.5G   0% /mnt/host/wslg/distro
+none                      3.8G         0      3.8G   0% /usr/lib/wsl/lib
+none                      3.8G         0      3.8G   0% /dev
+none                      3.8G         0      3.8G   0% /run
+none                      3.8G         0      3.8G   0% /run/lock
+none                      3.8G         0      3.8G   0% /run/shm
+none                      3.8G         0      3.8G   0% /dev/shm
+none                      3.8G         0      3.8G   0% /run/user
+tmpfs                     3.8G         0      3.8G   0% /sys/fs/cgroup
+none                      3.8G     76.0K      3.8G   0% /mnt/host/wslg/versions.txt
+none                      3.8G     76.0K      3.8G   0% /mnt/host/wslg/doc
+none                      3.8G     76.0K      3.8G   0% /tmp/.X11-unix
+C:\                     232.0G    178.7G     53.2G  77% /mnt/host/c
+D:\                     931.5G    474.2G    457.3G  51% /mnt/host/d
+========================================
+Информация о процессоре:
+Architecture:                       x86_64
+CPU op-mode(s):                     32-bit, 64-bit
+Address sizes:                      39 bits physical, 48 bits virtual
+Byte Order:                         Little Endian
+CPU(s):                             8
+On-line CPU(s) list:                0-7
+Vendor ID:                          GenuineIntel
+Model name:                         Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz
+CPU family:                         6
+Model:                              165
+Thread(s) per core:                 2
+Core(s) per socket:                 4
+Socket(s):                          1
+Stepping:                           2
+BogoMIPS:                           4992.01
+Flags:                              fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology cpuid pni pclmulqdq ssse3 fma cx16 pdcm pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves md_clear flush_l1d arch_capabilities
+Hypervisor vendor:                  Microsoft
+Virtualization type:                full
+L1d cache:                          128 KiB (4 instances)
+L1i cache:                          128 KiB (4 instances)
+L2 cache:                           1 MiB (4 instances)
+L3 cache:                           8 MiB (1 instance)
+Vulnerability Gather data sampling: Unknown: Dependent on hypervisor status
+Vulnerability Itlb multihit:        KVM: Mitigation: VMX unsupported
+Vulnerability L1tf:                 Not affected
+Vulnerability Mds:                  Not affected
+Vulnerability Meltdown:             Not affected
+Vulnerability Mmio stale data:      Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Retbleed:             Mitigation; Enhanced IBRS
+Vulnerability Spec rstack overflow: Not affected
+Vulnerability Spec store bypass:    Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:           Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:           Mitigation; Enhanced IBRS, IBPB conditional, RSB filling, PBRSB-eIBRS SW sequence
+Vulnerability Srbds:                Unknown: Dependent on hypervisor status
+Vulnerability Tsx async abort:      Not affected
+========================================
+Информация о памяти:
+              total        used        free      shared  buff/cache   available
+Mem:           7.7G      295.3M        7.3G        2.5M       87.9M        7.2G
+Swap:          2.0G           0        2.0G
+========================================
+Информация о файловой системе:
+none         on  /lib/modules/5.15.153.1-microsoft-standard-WSL2  type  overlay      (rw,nosuid,nodev,noatime,lowerdir=/modules,upperdir=/lib/modules/5.15.153.1-microsoft-standard-WSL2/rw/upper,workdir=/lib/modules/5.15.153.1-microsoft-standard-WSL2/rw/work)
+none         on  /mnt/host/wsl                                    type  tmpfs        (rw,relatime)
+drivers      on  /usr/lib/wsl/drivers                             type  9p           (ro,nosuid,nodev,noatime,dirsync,aname=drivers;fmask=222;dmask=222,mmap,access=client,msize=65536,trans=fd,rfd=7,wfd=7)
+/dev/sdc     on  /                                                type  ext4         (rw,relatime,discard,errors=remount-ro,data=ordered)
+none         on  /mnt/host/wslg                                   type  tmpfs        (rw,relatime)
+/dev/sdc     on  /mnt/host/wslg/distro                            type  ext4         (ro,relatime,discard,errors=remount-ro,data=ordered)
+none         on  /usr/lib/wsl/lib                                 type  overlay      (rw,nosuid,nodev,noatime,lowerdir=/gpu_lib_packaged:/gpu_lib_inbox,upperdir=/gpu_lib/rw/upper,workdir=/gpu_lib/rw/work)
+rootfs       on  /init                                            type  rootfs       (ro,size=4007608k,nr_inodes=1001902)
+none         on  /dev                                             type  devtmpfs     (rw,nosuid,relatime,size=4007608k,nr_inodes=1001902,mode=755)
+sysfs        on  /sys                                             type  sysfs        (rw,nosuid,nodev,noexec,noatime)
+proc         on  /proc                                            type  proc         (rw,nosuid,nodev,noexec,noatime)
+devpts       on  /dev/pts                                         type  devpts       (rw,nosuid,noexec,noatime,gid=5,mode=620,ptmxmode=000)
+none         on  /run                                             type  tmpfs        (rw,nosuid,nodev,mode=755)
+none         on  /run/lock                                        type  tmpfs        (rw,nosuid,nodev,noexec,noatime)
+none         on  /run/shm                                         type  tmpfs        (rw,nosuid,nodev,noatime)
+none         on  /dev/shm                                         type  tmpfs        (rw,nosuid,nodev,noatime)
+none         on  /run/user                                        type  tmpfs        (rw,nosuid,nodev,noexec,noatime,mode=755)
+binfmt_misc  on  /proc/sys/fs/binfmt_misc                         type  binfmt_misc  (rw,relatime)
+tmpfs        on  /sys/fs/cgroup                                   type  tmpfs        (rw,nosuid,nodev,noexec,relatime,mode=755)
+cgroup2      on  /sys/fs/cgroup/unified                           type  cgroup2      (rw,nosuid,nodev,noexec,relatime,nsdelegate)
+cgroup       on  /sys/fs/cgroup/cpuset                            type  cgroup       (rw,nosuid,nodev,noexec,relatime,cpuset)
+cgroup       on  /sys/fs/cgroup/cpu                               type  cgroup       (rw,nosuid,nodev,noexec,relatime,cpu)
+cgroup       on  /sys/fs/cgroup/cpuacct                           type  cgroup       (rw,nosuid,nodev,noexec,relatime,cpuacct)
+cgroup       on  /sys/fs/cgroup/blkio                             type  cgroup       (rw,nosuid,nodev,noexec,relatime,blkio)
+cgroup       on  /sys/fs/cgroup/memory                            type  cgroup       (rw,nosuid,nodev,noexec,relatime,memory)
+cgroup       on  /sys/fs/cgroup/devices                           type  cgroup       (rw,nosuid,nodev,noexec,relatime,devices)
+cgroup       on  /sys/fs/cgroup/freezer                           type  cgroup       (rw,nosuid,nodev,noexec,relatime,freezer)
+cgroup       on  /sys/fs/cgroup/net_cls                           type  cgroup       (rw,nosuid,nodev,noexec,relatime,net_cls)
+cgroup       on  /sys/fs/cgroup/perf_event                        type  cgroup       (rw,nosuid,nodev,noexec,relatime,perf_event)
+cgroup       on  /sys/fs/cgroup/net_prio                          type  cgroup       (rw,nosuid,nodev,noexec,relatime,net_prio)
+cgroup       on  /sys/fs/cgroup/hugetlb                           type  cgroup       (rw,nosuid,nodev,noexec,relatime,hugetlb)
+cgroup       on  /sys/fs/cgroup/pids                              type  cgroup       (rw,nosuid,nodev,noexec,relatime,pids)
+cgroup       on  /sys/fs/cgroup/rdma                              type  cgroup       (rw,nosuid,nodev,noexec,relatime,rdma)
+cgroup       on  /sys/fs/cgroup/misc                              type  cgroup       (rw,nosuid,nodev,noexec,relatime,misc)
+none         on  /mnt/host/wslg/versions.txt                      type  overlay      (rw,relatime,lowerdir=/systemvhd,upperdir=/system/rw/upper,workdir=/system/rw/work)
+none         on  /mnt/host/wslg/doc                               type  overlay      (rw,relatime,lowerdir=/systemvhd,upperdir=/system/rw/upper,workdir=/system/rw/work)
+none         on  /tmp/.X11-unix                                   type  tmpfs        (ro,relatime)
+C:\          on  /mnt/host/c                                      type  9p           (rw,noatime,dirsync,aname=drvfs;path=C:\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4)
+D:\          on  /mnt/host/d                                      type  9p           (rw,noatime,dirsync,aname=drvfs;path=D:\;uid=0;gid=0;metadata;symlinkroot=/mnt/host/,mmap,access=client,msize=65536,trans=fd,rfd=4,wfd=4)
+========================================
+Информация об установленных пакетах ПО:
+========================================
